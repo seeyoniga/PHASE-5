@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.demo.p5l2asst1.GroupTest">
+        <methods>
+          <include name="loginWithFireFox"/>
+          <include name="launchFireFox"/>
+        </methods>
+      </class> <!-- com.demo.p5l2asst1.GroupTest -->
+      <class name="com.demo.p5l2asst1.FacebookLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.demo.p5l2asst1.FacebookLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
